@@ -9,6 +9,8 @@ A motorized rotating display platform built for a **minimalist circuit design co
 ### Version 1 — 555 Timer (No MCU)
 A purely analog solution using a **555 timer IC** in astable mode to generate a PWM signal for motor speed control.
 
+![555 Timer Schematic](images/555-version.png)
+
 **Features:**
 - PWM-based motor speed control via adjustable duty cycle
 - Clockwise/counterclockwise direction control via slide switch
@@ -24,6 +26,8 @@ A purely analog solution using a **555 timer IC** in astable mode to generate a 
 
 ### Version 2 — ATmega8 (MCU-based)
 An enhanced version adding precise stepper motor control and a pricing display system via microcontroller.
+
+![ATmega8 Schematic](images/atmega8-version.png)
 
 **Features:**
 - Stepper motor with adjustable speed and direction
